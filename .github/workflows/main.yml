@@ -1,0 +1,19 @@
+on: 
+   issues:
+    types: [opened]
+
+jobs:
+  artia-create-activity-job:
+    runs-on: ubuntu-latest
+    name: Create Activity.
+    steps:
+      - name: Criando Atividade
+        id: Create
+        uses: mobral-inc/criar-atividade-por-issue@v1.0.0
+        with: 
+          organizationId: 111402
+          accountId: 3757329
+          folderId: 3764173
+          creatorEmail: 'nerdplis@gmail.com'
+          creatorPassword: ${{ secrets.ARTIA_PASSWORD }}
+      
