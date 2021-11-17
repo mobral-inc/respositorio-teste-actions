@@ -22,5 +22,6 @@ jobs:
           organizationId: 111402
           accountId: 3757321
           creatorEmail: 'nerdplis@gmail.com'
+        env:
           creatorPassword: 'mobralzera'
       
