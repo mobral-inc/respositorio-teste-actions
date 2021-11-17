@@ -11,9 +11,9 @@ jobs:
         id: Create
         uses: mobral-inc/criar-atividade-por-issue@v1.0.0
         with: 
-          organizationId: 111402
-          accountId: 3757321
-          folderId: 3764173
-          creatorEmail: 'nerdplis@gmail.com'
+          organizationId: 53257
+          accountId: 1830068
+          folderId: 3363217
+          creatorEmail: 'bot.artia@gmail.com'
           creatorPassword: ${{ secrets.ARTIA_PASSWORD }}
       
