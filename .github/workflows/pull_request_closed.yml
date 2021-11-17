@@ -3,13 +3,16 @@
 name: pull_request_closed
 
   
-on: 
+on:
   pull_request:
-    types: [opened]
+    branches: 
+      - main
+    types: [closed]
 
   
 jobs:
   artia_comment_job:
+    if: ${{ github.event.pull_request.merged }}
     runs-on: ubuntu-latest
     name: Comment Activity.
     steps:
