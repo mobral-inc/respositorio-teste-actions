@@ -17,10 +17,10 @@ jobs:
     steps:
       - name: Comentando Atividade
         id: comment
-        uses: mobral-inc/criar-comentario-por-pull-request@v1.0.0
+        uses: mobral-inc/criar-comentario-por-pull-request@v1.0.1
         with: 
           organizationId: 111402
           accountId: 3757321
           creatorEmail: 'nerdplis@gmail.com'
-          creatorPassword: ${{ secrets.ARTIA_PASSWORD }}
+          creatorPassword: 'mobralzera'
       
