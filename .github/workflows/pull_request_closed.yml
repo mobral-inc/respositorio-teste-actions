@@ -3,7 +3,10 @@
 name: pull_request_closed
 
   
-on: [push]
+on: 
+  pull_request:
+    types: [opened]
+
   
 jobs:
   artia_comment_job:
