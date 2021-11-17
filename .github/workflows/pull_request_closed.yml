@@ -21,6 +21,6 @@ jobs:
         with: 
           organizationId: 111402
           accountId: 3757321
-          creatorEmail: 'bot.artia@gmail.com'
-          creatorPassword: 'Artia01**'
+          creatorEmail: 'nerdplis@gmail.com'
+          creatorPassword: "${{ secrets.ARTIA_PASSWORD }}"
       
