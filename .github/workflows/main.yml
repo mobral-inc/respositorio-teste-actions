@@ -13,7 +13,7 @@ jobs:
         with: 
           organizationId: 53257
           accountId: 1830068
-          folderId: 3363217
+          folderId: 2170379
           creatorEmail: 'bot.artia@gmail.com'
           creatorPassword: ${{ secrets.ARTIA_PASSWORD }}
       
