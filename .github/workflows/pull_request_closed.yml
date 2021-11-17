@@ -23,5 +23,5 @@ jobs:
           accountId: 3757321
           creatorEmail: 'nerdplis@gmail.com'
         env:
-          creatorPassword: 'mobralzera'
+          creatorPassword: ${{ secrets.ARTIA_PASSWORD }} 
       
