@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Comentando Atividade
         id: comment
-        uses: mobral-inc/criar-comentario-por-pull-request@v1.0.1
+        uses: mobral-inc/criar-comentario-por-pull-request@v1.0.2
         with: 
           organizationId: 111402
           accountId: 3757321
