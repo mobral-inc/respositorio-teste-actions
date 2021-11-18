@@ -14,6 +14,6 @@ jobs:
     steps:
       - name: Step 2 - GitHub Action if statement (true)
         env: 
-          WHO_TO_TRUST: ${{ secrets.ARTIA_PASSWORD }}
+          WHO_TO_TRUST: ${{ secrets.ARTIA_PASSWORD_ENV }}
         if:  env.WHO_TO_TRUST == 'mobralzera'
         run: echo "I know what the password is!"
